@@ -1,0 +1,157 @@
+*{
+	border: 0;
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image:url('../img/computer.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+	color: white;
+	margin-top: 20px;
+   }
+
+a{
+	padding:10px 15px;
+	margin: 3px 0 3px 89px;
+	color: #fff;
+	border-top: 1px solid #15a4fa;
+	border-left: 1px solid #15a4fa;
+	cursor: pointer;
+	border-radius:2px;
+	font-size: 14px;
+	font-weight: 800;
+	
+}
+
+a.one{
+	color:#fff;
+}
+
+a.home{
+ color: #fff;
+}
+
+
+h1.heading{
+	text-align: center;
+    color: white;
+    margin-top: 96px;
+    font-size: 53px;
+    font-weight: 700;
+    margin-left: 183px;
+}
+
+hr.line{
+	border:1px solid #15a4fa;
+	margin-left: 127px;
+    margin-top: 48px;
+}
+
+
+
+input.input {
+	text-align: center;
+    padding: 10px 15px;
+     width: 9%; 
+    height: -16%;
+    margin-left: 608px;
+    margin-top: 86px;
+    background-color: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: 1px solid #15a4fa;
+    color: #fff;
+    border-left: 1px solid #15a4fa;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: 800;
+}
+
+.article{
+	background-color:#F6F9F9;
+	text-align: center;
+	margin-top: 47px;
+	padding: 50px;
+}
+
+.img-responsive{
+  width: 530px;
+  height: auto;
+  object-fit: cover;
+}
+
+.middle{
+	padding: 50px 0;
+	background-color: #000033;
+	max-width: 100%;
+}
+
+.right{
+	color: white;
+}
+
+.projects{
+	background-image:url('../img/bg2.png');
+	height: 50%;
+	width: 50%;
+	display: inline-block
+    padding: 300px 0;
+    text-align: center;
+    color: white;
+    margin-left: -18px;
+    font-weight: 800;
+}
+
+.col-md-4{
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+}
+
+img.img-responsive{
+	margin-left: -18px;
+}
+
+.form input{
+	width: 50%;
+	margin:5px;
+	text-align: center;
+	margin-left: 268px;
+}
+
+form{
+	background-color: black;
+}
+
+
+.alone{
+ margin-left: 30px;
+}
+
+.post-malone{
+	margin-left:474px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
