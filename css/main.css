@@ -11,8 +11,15 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    /*/margin: auto;*/
+   
 }
+
+p {
+	display: none;
+}
+
 
 .nav{
 	display: flex;
@@ -99,6 +106,7 @@ input.input {
 
 .right{
 	color: white;
+
 }
 
 .projects{
@@ -109,7 +117,7 @@ input.input {
     padding: 300px 0;
     text-align: center;
     color: white;
-    margin-left: -18px;
+    margin-left: -96px;
     font-weight: 800;
 }
 
@@ -121,7 +129,7 @@ input.input {
 }
 
 img.img-responsive{
-	margin-left: -18px;
+	margin-left: 0px;
 }
 
 .form input{
@@ -133,17 +141,32 @@ img.img-responsive{
 
 form{
 	background-color: black;
+	background-image:url('../img/bg2.png');
+	padding: 50px;
+	margin-left:-15px;
+	margin-top: 15px;
+	border: 1px solid white;
+	border-radius: 18px;
 }
 
 
 .alone{
- margin-left: 30px;
+ margin-left: 20px;
 }
 
 .post-malone{
-	margin-left:474px;
+	margin-left:480px;
+	color: white;
 }
 
+div.col-lg-4{
+	color: white;
+	list-style: none;
+	padding: 100px;
+	font-weight: 800;
+	background-image: url('../img/image10.jpg');
+
+}
 
 
 
